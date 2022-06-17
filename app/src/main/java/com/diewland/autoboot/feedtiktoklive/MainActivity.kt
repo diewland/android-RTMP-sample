@@ -19,12 +19,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val rtmpUrl = "rtmp://62.113.210.250/medienasa-live/ok-merseburg_high"
-        // val rtmpUrl = "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
+        val rtmpUrl1 = "rtmp://62.113.210.250/medienasa-live/ok-merseburg_high"
+        val rtmpUrl2 = "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mp4"
         val tiktokUrl = "https://www.tiktok.com/@mellerzap2/live?lang=th-TH"
 
-        //playVideoView(rtmpUrl)
-        playExoView(rtmpUrl)
+        //playVideoView(rtmpUrl2)
+        playExoView(rtmpUrl1)
         //playWebView(tiktokUrl)
     }
 
